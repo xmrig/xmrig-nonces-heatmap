@@ -2,6 +2,8 @@
 
 This tool created for nonce distribution visualization using heatmap. All required data can be obtained directly from daemon by JSON RPC protocol without any external tool. Daemon API must implement `get_last_block_header` and `get_block_headers_range` methods. Maximum heatmap resolution is limited to 1 Gigapixel.
 
+**Example for Monero https://raw.githubusercontent.com/xmrig/xmrig-nonces-heatmap/master/example.png**
+
 ## Configuration
 
 All configuration is done using JSON configuration file with default name `config.json`. Working directory can be overridden by the command line option `--data-dir` (or `-d`) and config name by `--config` (or `-c`). If no configuration file exists default one will be created for you.
